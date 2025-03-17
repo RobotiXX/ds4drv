@@ -2,8 +2,8 @@
 
 from setuptools import setup
 
-readme = open("README.rst").read()
-history = open("HISTORY.rst").read()
+# readme = open("README.rst").read()
+# history = open("HISTORY.rst").read()
 
 setup(name="ds4drv",
       version="0.5.1",
@@ -12,7 +12,7 @@ setup(name="ds4drv",
       author="Christopher Rosell",
       author_email="chrippa@tanuki.se",
       license="MIT",
-      long_description=readme + "\n\n" + history,
+      # long_description=readme + "\n\n" + history,
       entry_points={
         "console_scripts": ["ds4drv=ds4drv.__main__:main"]
       },
